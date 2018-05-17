@@ -1,0 +1,28 @@
+{
+  "name": "mmsd-bm",
+  "version": "0.1.0",
+  "description": "Monero Messaging System implementation for BitMessage",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Matthew Incognito <matthew@incognito.host>",
+  "license": "ISC",
+  "dependencies": {
+    "debug": "^3.1.0",
+    "dotenv": "^5.0.1",
+    "jayson": "^2.0.6",
+    "xmlrpc": "^1.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.1.0"
+  }
+}
